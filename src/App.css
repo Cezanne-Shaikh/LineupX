@@ -1,38 +1,295 @@
-.App {
-  text-align: center;
+.main{
+  padding: 2rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f5f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .profile-page{
+ min-width: 645px;
+ max-width: 645px;
+ background-color: white;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+} 
+
+.profile{
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  position: relative;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.profile-picture{
+  width: 100px;
+  height: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name{
+  display: flex;
+  align-items: center;
+  line-height: 50%;
+  gap: 8px;
+}
+
+.verify{
+  margin-top: 15px;
+  width: 15px;
+  height: 20px;
+}
+
+.person_name{
+  font-size: 1rem;
+font-family: Poppins;
+font-weight: 600;
+
+}
+
+.title{
+  font-size: 12px;
+font-weight: 500;
+
+}
+
+.details{
+  display: flex;
+  gap: 20px;
+line-height: 0;
+}
+
+.Phone_info,.Mail_info,.location_info,.exprience_info,.salary_info{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone_image,.mail_image,.location_image,.exprience_image,.salary_image{
+  width: 15px;
+}
+
+.number,.mail,.location,.exprience,.salary{
+  color: #455468;
+font-size: 9.75px;
+font-family: Poppins;
+font-weight: 400;
+}
+
+.edit{
+  position: absolute;
+  right:10px ;
+  top: 10px;
+ 
+}
+
+.edit_image{
+  padding: 3px;
+  width: 20px;
+  border-style: solid;
+  border-color: #5E718D;
+  border-radius: 50%;
+  border-width: thin;
+}
+
+.skills_section{
+  
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+}
+
+.skills{
+background-color: #F0F3F9;
+border-radius: 75px;
+text-align: center;
+color: #3D4A5C;
+font-size: small;
+padding: 0 10px;
+}
+
+.perfered{
+  color: #5E718D;
+font-size: 12px;
+font-family: Poppins;
+font-weight: 500;
+margin-top: 1rem;
+padding: 0 10px;
+
+}
+
+.Relocate{
+  color: #5E718D;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 500;
+  padding: 0 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.perfered_locations,.Relocate_ans{
+  color: #2D3643;
+}
+
+.about_main{
+  min-width: 645px;
+ max-width: 645px;
+}
+
+.about-section{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.about-me{
+  font-size: 18px;
+font-weight: 500;
+
+
+}
+
+.notebook{
+  width: 15px;
+  margin-top: 10px;
+  background-color: black;
+  border-radius: 35px;
+  padding: 5px;
+}
+
+
+.aaaa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 645px;
+ max-width: 645px;
+ /* background-color: orange; */
+
+}
+
+.description{
+  /* background-color: black; */
+  margin-top: -20px;
+  min-width: 645px;
+ max-width: 645px;
+  color: #2D3643;
+font-size: 15px;
+font-weight: 500;
+}
+
+
+
+.certi_main{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  padding: 25px;
+  min-width: 182px;
+  max-width: 182px;
 }
 
-.App-link {
-  color: #61dafb;
+.certification{
+ width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+.certi_image{
+  background-color: yellow;
+  width: 25px;
+  border-radius: 5px;
+}
+
+.certi_para{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.certi_plus{
+  width: 15px;
+  height: 15px;
+  border :1px solid #AFBACA;
+  border-radius: 50px;
+  margin-top: 5px;
+  padding: 8px;
+}
+
+.work-exe{
+  padding: 10px;
+  min-width: 630px;
+ max-width: 630px;
+ background-color: white;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
+.education_main{
+  margin-top: 20px;
+  padding: 10px;
+  min-width: 630px;
+ max-width: 630px;
+ background-color: white;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
+.personal_main{
+  margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 25px;
+    min-width: 184px;
+    max-width: 184px;
+  }
+
+  .resume_main{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 25px;
+    min-width: 184px;
+    max-width: 184px;
+  }
+
+  .project_main{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 25px;
+    min-width: 184px;
+    max-width: 184px;
+  }
