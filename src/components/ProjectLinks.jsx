@@ -19,7 +19,7 @@ const ProjectLinks = () => {
         <p style={{margin:'0',fontWeight:'500'}}>Project Links</p>
     </div>
 
-    <div style={{display:'flex',width:'100%',textAlign:'left',alignItems:'center',justifyContent:'space-between',border:'2px solid #D7DFE9',padding:'10px',borderRadius:'10px',margin:'5px 2px'}}>
+    <div style={{display:'flex',width:'100%',textAlign:'left',alignItems:'center',justifyContent:'space-between',border:'2px solid #D7DFE9',padding:'10px',borderRadius:'10px',margin:'15px 2px'}}>
       <div style={{display:"flex",gap:'5px',alignItems:'center',width:'100%',textAlign:'left'}}>
         <img src={githhub} alt="github" style={{width:'20px',}}/>
         <p style={{fontWeight:'500',margin:'0'}}>Github</p>

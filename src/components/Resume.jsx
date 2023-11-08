@@ -15,7 +15,7 @@ const Resume = () => {
         </div>
 
         <div style={{display:'flex',gap:'10px',alignItems:'center',width:'100%',border:'1px solid #D7DFE9',borderRadius:'8px',marginTop:'10px',padding:'4px'}}>
-            <div style={{display:'flex',gap:'5px'}}>
+            <div style={{display:'flex',gap:'5px',width:'100%'}}>
                 <img src={document} alt="document" style={{width:'25px'}}/>
                 <p style={{margin:'15px 0'}}>Arbaz_K...</p>
             </div>

@@ -18,7 +18,7 @@ const Profile = () => {
 
         <div className="aka">
           <div className="name">
-            <p style={{margin:'20px 0 5px 0'}} className="person_name">Arbaz Khan</p>
+            <p style={{margin:'20px 0 5px 0',gap:'5px'}} className="person_name">Arbaz Khan</p>
             <img src={Verify} alt="verified" className="verify" />
           </div>
           <div className="title">
